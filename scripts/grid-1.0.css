@@ -1,0 +1,6 @@
+.gridWrapper .gridHeaderWrapper .gridHeader {
+	float: left;
+}
+.gridWrapper .gridHeaderWrapper {
+	clear: both;
+}

@@ -1,0 +1,63 @@
+.gridWrapper  {
+	font-size: 14px;
+	border-style:solid;
+	border-color: #7F7F7F;
+	border-width: 1px 0 0 1px;
+}
+.gridWrapper .gridHeaderWrapper .gridHeader {
+	float: left;
+	padding: 5px;
+	font-weight: bold;
+}
+.gridWrapper .gridHeaderWrapper {
+	background: #D6D6D6;
+}
+.gridWrapper .gridFooter {
+	font-weight: bold;
+	background: #D6D6D6;
+}
+.gridWrapper .gridStyle {
+	border-style:solid;
+	border-color: #7F7F7F;
+	border-width: 0 1px 1px 0;
+}
+.gridWrapper .rowData  .emptyCell {
+	border-right-color: #fff;
+}
+.gridWrapper .gridFooter .gridPager {
+	width: 150px;
+	padding: 5px 0 5px;
+	margin-left: 30%;
+}
+.gridWrapper .gridFooter  .gridPager .pageIndex {
+	width: 20px;
+	border-style:solid;
+	border-color: #7F7F7F;
+	border-width: 1px;
+	margin: 2px;
+}
+.gridWrapper .gridFooter  .gridPager input{
+	float: left;
+}
+.gridWrapper .gridFooter .gridPager .pagerLabel {
+	margin: 2px 0 0 0;
+	padding: 0 5px;
+	float: left;
+}
+.gridWrapper .rowData .gridCell {
+	float: left;
+	padding: 5px;
+	font-weight: normal;
+}
+.gridWrapper .recordCounter {
+	float: right;
+	padding: 5px;
+	font-size: 11px;
+	font-weight: bold;
+}
+.gridWrapper  .hidden {
+	visibility: hidden;
+}
+.gridWrapper .clear {
+	clear: both;
+}
